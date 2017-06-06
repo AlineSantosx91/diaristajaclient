@@ -10,12 +10,14 @@ import { FooterComponent } from './common/footer/footer.component';
 import { MapModule } from './common/map/map.module';
 import { HomeModule } from './home/home.module';
 import { ListarDiaristaModule } from './listar-diarista/listar-diarista.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
